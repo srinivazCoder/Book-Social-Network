@@ -1,0 +1,18 @@
+div{
+    &.card{
+        max-height: 450px;
+        min-height: 450px;
+        
+    }
+
+    .card-body:hover{
+        overflow-y:auto;
+    }
+    .card-body{
+        overflow-y:hidden;
+    }
+}
+
+i{
+    cursor: pointer;
+}
